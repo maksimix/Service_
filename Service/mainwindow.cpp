@@ -22,7 +22,7 @@ void MainWindow::setupUi()
   ip_controller_ = new QLineEdit();
   address_controller_ = new QLineEdit();
   
-  layout->addWidget(new QLabel("IP адрес"), 0, 0, 1, 1);
+  layout->addWidget(new QLabel("IP адрес:"), 0, 0, 1, 1);
   layout->addWidget(ip_controller_, 0, 2, 1, 1);
   layout->addWidget(button_send_ip, 0, 3, 1, 2);
 
